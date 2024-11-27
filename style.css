@@ -1,0 +1,479 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.w-35{
+    width: 35%;
+}
+.menu i{
+    font-size: 50px;
+}
+.bg_main{
+    background-color: #f2ede2;
+}
+.text_color{
+    color: #34120b;
+}
+.navbar{
+    top: 0;
+    left: 0;
+    position: sticky;
+    z-index: 1;
+}
+.text2{
+    width: 57vw
+}
+.text3{
+    width: 65vw
+}
+.text4{
+    width: 98vw
+}
+.non_text{
+    width: 45vw;
+}
+.hero1{
+    background-image: url('Office/asset 4.jpeg');
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+    position: sticky;
+    right: 0;
+    top:50;
+}
+.arrow i{
+    font-size: 28px;
+}
+.text4 span:nth-Child(2){
+    padding: 14px;
+}
+.text4 span:nth-Child(2):hover{
+   background-color: #ff9139;
+}
+.arrow{
+    background-color: #ff9139;
+}
+.orange{
+    color: #ff9139;
+}
+.try{
+    height: 200vh;
+}
+.rating1_first{
+    border-bottom: 1.5px solid #34120b;
+}
+.hero3_img{
+   background-image: url('Office/asset 5.jpeg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+  .menu_inner{
+    display: none;
+    width: 100vw;
+    height: 95vh;
+    position: fixed;
+    top: 70px;
+   
+  }
+  .hero_begin{
+    display: flex;
+  }
+  .menu_inner_img{
+    height: 45vh;
+  }
+  .menu_items{
+    height: 50vh;
+  }
+   
+ .hero4_section{
+    height: 120vh;
+    overflow: hidden;
+ }
+.hero3_section{
+    height: 90vh;
+}
+.icon:hover{
+    background-color: #ff9139;
+}
+.slider{
+    height: 600px;
+}
+.slide_img1{
+    width: 100%;
+    height:67.5vh;
+    object-fit: fill;
+}
+.slide_img{
+    width: 100%;
+    height:67.5vh;
+    object-fit: fill;
+    z-index: 1;
+}
+.slide{
+    min-width: 100%;
+    height: 600px;
+}
+.slide1:hover{
+    transform: translateX(-100);
+}
+.overlay{
+    width: 100%;
+    height: 450px;
+    top: 252px;
+    left: 64px;
+}
+.first_slide_text_div{
+    width: 500px;
+    z-index: 1;
+    background-color: transparent;
+}
+.orange_bar{
+    height: 100px;
+}
+.private_table{
+    width: 220px;
+}
+.private_description{
+    width: 300px;
+}
+.small_font{
+    font-size: 10px;
+}
+.med-font{
+    font-size: 13px;
+}
+.menu_items li{
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 450px){
+    .arrow i {
+        font-size: 15px;
+    }
+    .slide_img1{
+        height:45vh;
+    }
+    .slide_img{
+        height:45vh;
+    }
+    .arrow{
+        height: 20px;
+        width: 20px;
+    }
+    .arrow_text{
+        font-size: 9px;
+        line-height: 8px;
+    }
+    .why_us{
+        font-size: 20px;
+        line-height: 0px;
+    }
+    .why_choose_head{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .smallest_why_us{
+        font-size: 10px;
+    }
+    .hero3_content_items i{
+        font-size: 12px;
+        width: 15px;
+        height: 15px;
+    }
+    .hero3_content_div{
+        left: 195px;
+        top: 200px;
+    }
+    .hero3_section{
+        height: 70vh;
+    }
+    .number1, .number2, .number3, .number4{
+        font-size: 27px;
+    }
+    .number_reason{
+        font-size: 16px;
+    }
+    .rating1_second{
+        font-size: 13px;
+    }
+    .amen{
+        font-size: 27px;
+    }
+    .icon{
+        font-size: 26px;
+        height: 30px;
+        width: 30px;
+    }
+    .text4{
+        width: 88vw;
+    }
+    .main_container{
+        width: 100vw;
+    }
+    .book_btn_container{
+        width: 80vw;
+    }
+    .hero3_content_div{
+        width: 40vw;
+        min-width: 100%;
+    }
+    .slide_img{
+        height: 40vh;
+        min-width: 100%;
+    }
+    .orange_bar{
+        height: 100px;
+    }
+    .slide_img1{
+        height: 40vh;
+        min-width: 100%;
+    }
+  .slide_text_div{
+    height: 40vh;
+    min-width: 100%;
+  }
+  .high_orange{
+    height: 97px;
+  }
+  .slide_text1{
+    font-size: 17px;
+    width: 60%;
+    padding: 2px;
+  }
+  .slide_text2{
+    font-size: 11px;
+    width: 100%;
+    padding: 14px 3px;
+  }
+  .first_slide_text_div{
+    bottom: 0;
+  }
+  .orange_bar{
+    height: 85px;
+  }
+  .high_orange{
+    height: 80px;
+  }
+  .private_table{
+    width: 220px;
+}
+.private_description{
+    width: 300px;
+}
+
+    }
+    @media only screen and (max-width: 350px){
+        .hero3_content_div{
+            width: 37vw;
+        }
+        .book_btn_container{
+            width: 65vw;
+        }
+        .arrow_text{
+            font-size: 7px;
+        }
+        .why_us{
+            width: 30vw;
+        }
+        .smallest_why_us{
+            line-height: 10px;
+        }
+        .why_choose_head{
+            font-size: 10px;
+            line-height: 10px;
+        }
+        .main_head1{
+            font-size: 30px;
+        }
+        .rating1_second{
+            font-size: 10px;
+        }
+      
+        .hero3_img{
+            height: 30vh;
+        }
+        .slide_img1{
+            height:40vh;
+            min-width: 100%;
+        }
+        .slide_img{
+            height:40vh;
+            min-width: 100%;
+        }
+        .slide_text_div{
+            height: 45vh;
+            min-width: 100%;
+           
+          }
+          .slide_text1{
+            font-size: 17px;
+            width: 60%;
+            padding: 2px;
+          }
+          .slide_text2{
+            font-size: 11px;
+            width: 100%;
+            padding: 14px 3px;
+          }
+          .first_slide_text_div{
+            bottom: 0;
+          }
+          .orange_bar{
+            height: 85px;
+          }
+          .high_orange{
+            height: 80px;
+          }
+          .private_table{
+            width: 220px;
+        }
+        .private_description{
+            width: 300px;
+        }
+    }  
+    @media only screen and (max-width: 1280px){
+        .arrow_box{
+            width: 60px;
+            height: 60px;
+        }
+        .arrow_box i {
+            font-size: 40px;
+        }
+        .hero3_orange_box{
+            width: 25%;
+            height: 20vh;
+        }
+        .hero3_img{
+            width: 37%;
+            height: 70vh;
+        }
+        .hero3_section{
+            height: 120vh;
+        }
+        .hero3_content_div{
+            width: 40%;
+            gap: 25px;
+            left: 50%;
+        }
+        .why_us{
+            width: 90%;
+        }
+        .hero3_content_items i{
+            width: 60px;
+            height: 60px;
+            font-size: 30px;
+        }
+        .why_us{
+            line-height: 70px;
+        }
+        .slide_img{
+            width: 100%;
+        }
+        .slide_text1{
+            font-size: 18px;
+            width: 50%;
+            padding: 2px;
+          }
+          .slide_text2{
+            font-size: 12px;
+            width: 100%;
+            padding: 14px 3px;
+          }
+          .first_slide_text_div{
+            bottom: 0;
+          }
+          .orange_bar{
+            height: 85px;
+          }
+          .high_orange{
+            height: 80px;
+          }
+          .private_table{
+            width: 300px;
+        }
+        .private_description{
+            width: 400px;
+        }
+
+    }
+    @media only screen and (max-width: 1536px)
+    {
+                .arrow_box{
+            width: 60px;
+            height: 60px;
+        }
+        .arrow_box i {
+            font-size: 40px;
+        }
+        .hero3_orange_box{
+            width: 25%;
+            height: 20vh;
+        }
+        .hero3_img{
+            width: 37%;
+            height: 70vh;
+        }
+        .hero3_section{
+            height: 120vh;
+        }
+        .hero3_content_div{
+            width: 40%;
+            top: 150px;
+            gap: 25px;
+            left: 50%;
+        }
+        .why_us{
+            width: 90%;
+        }
+        .hero3_content_items i{
+            width: 60px;
+            height: 60px;
+            font-size: 30px;
+        }
+        .why_us{
+            line-height: 70px;
+        }
+        .slide_text_div{
+            width: 60%;
+        }
+        .first_slide_text_div{
+            bottom: 0;
+        }
+       
+
+    }
+    @media only screen and (max-width:1870px){
+        .first_slide_text_div{
+            bottom: 0px;
+        }
+      
+    }
+    @media only screen and (max-width:1921px){
+    
+      
+    }
